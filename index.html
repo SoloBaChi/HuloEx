@@ -4,11 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="./font-awesome/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="./css/index.css" rel="stylesheet">
+    <title>index page</title>
+    <style>
+      
+    </style>
 </head>
 <body>
+    <!-- starting with mobile first principle -->
    <div class="site-wrapper">
-    <header class="site-header index-header"></header>
+    <header class="site-header index-header">
+    <input type="checkbox" id="toggle-action" class="nav-header-input"/>
+    <div class="mobile-header-flex">
+    <div class="flex-left">
+        <div class="img-container">
+            <a href="./index.html"><img src="./images/huloex-logo-img.svg" alt="logo image"/></a>
+        </div>
+        <h1 class="site-header-logo"><a href="./index.html">HuloEx</a></h1>
+    </div>
+      <div class="flex-right">
+        <label for="toggle-action" class="toggle-bars"></label>
+       </div>
+    </div>
+    <nav class="nav-main-menu">
+        <ul>
+           <ul class="nav-ul">
+                 <li class="main-list-item"><a href="./market.html">Market</a></li>
+                 <li class="main-list-item"><a href="./earn.html">Earn</a></li>
+                 <li class="main-list-item dropdown"><a href="#"> Trades <span class="fa fa-angle-down" aria-hidden="true"></span></a>
+                    <!-- this is a second layer of navigation  -->
+                    <ul class="dropdown-menu">
+                        <li class="nested-list-item"><a href="./spot.html">Spot Trading</a></li>
+                        <li class="nested-list-item"><a href="./contract.html">Contract Trading</a></li>
+                    </ul>
+                </li>
+                 <li class="main-list-item"><a href="./buycrypto.html">Buy Crypto</a></li>
+                 <li class="main-list-item dropdown"><a href="#"> Finance  <span class="fa fa-angle-down" aria-hidden="true"></span></a>
+                    <!--this is a second layer of navigation -->
+                    <ul class="dropdown-menu">
+                      <li class="nested-list-item"><a href="./debitcard.html">HuloEx Debit card</a></li>  
+                      <li class="nested-list-item"><a href="./cryptoloan.html">HuloEx Crypto Loan</a></li>  
+                    </ul>
+                </li>
+                 <li class="main-list-item"><a href="#">Language</a></li>
+                 <li class="main-list-item"><a href="./login.html">Log In</a></li>
+                 <li class="main-list-item"><a class="cta-btn" href="#">Register</a></li>
+              </ul>
+        </ul>
+       </nav>
+    </header>
+
+
+    <!-- site main body -->
     <main class="site-body index-main"></main>
     <footer class="site-footer index-footer"></footer>
    </div> 
