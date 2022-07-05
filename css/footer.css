@@ -1,0 +1,66 @@
+/* footer styles for every page */
+.index-footer{
+border:0px solid red;
+}
+
+.site-footer{
+    /* border:1px solid blue; */
+    background-color:#fff;
+    }
+    .site-footer nav{
+    border:0px solid red;
+    margin-top:2rem;
+    padding:1rem 4rem;
+    }
+    .site-footer nav ul{
+    /* font-weight:bold; */
+    font-weight:700;
+    line-height:1.5;
+    }
+    .site-footer nav ul ul{
+    font-weight:400;
+    }
+    .site-footer nav ul ul a{
+    font-size:85%;
+    }
+    .site-footer nav > ul > li {
+    margin-bottom:2rem;
+    }
+
+
+
+    /*footer tablet device media query*/
+    @media(min-width:450px){
+        .site-footer nav{
+         padding:2rem;
+        }
+        .site-footer nav ul{
+            columns:2;
+         }
+        .site-footer nav ul ul{
+            columns:1;
+            }
+        .site-footer nav ul.social-icons div{
+         border:0px solid green;
+         display:flex;
+         justify-content:space-between;
+        }
+    }
+
+    /* footer desktop media query */
+    @media(min-width:810px){
+    .site-footer nav{
+    /* border:2px solid green; */
+    margin:0;
+    padding:1rem;
+    }
+    .site-footer nav ul{
+        display:flex;
+        flex-flow:row wrap;
+        justify-content:space-between;
+        gap:2rem;
+             }
+      .site-footer nav ul ul{
+       display:block;
+      }
+    }

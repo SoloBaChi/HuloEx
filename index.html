@@ -12,6 +12,7 @@
     </style>
 </head>
 <body>
+    <!-- NoteBefore: the term "cta" was used in most styling to denote call to action btn -->
     <!-- starting with mobile first principle -->
    <div class="site-wrapper">
     <header class="site-header index-header">
@@ -35,16 +36,36 @@
                  <li class="main-list-item dropdown"><a href="#"> Trades <span class="fa fa-angle-down" aria-hidden="true"></span></a>
                     <!-- this is a second layer of navigation  -->
                     <ul class="dropdown-menu">
-                        <li class="nested-list-item"><a href="./spot.html">Spot Trading</a></li>
-                        <li class="nested-list-item"><a href="./contract.html">Contract Trading</a></li>
+                        <li class="nested-list-item flex">
+                            <div class="img-container">
+                             <img src="./images/spot-trading.svg " alt="spot trading icon"/>
+                            </div>
+                            <a href="./spot.html">Spot Trading</a>
+                        </li>
+                        <li class="nested-list-item flex">
+                             <div class="img-container">
+                                <img src="./images/debit-card-icon.svg" alt="contract icon"/>
+                             </div>
+                            <a href="./contract.html">Contract Trading</a>
+                        </li>
                     </ul>
                 </li>
                  <li class="main-list-item"><a href="./buycrypto.html">Buy Crypto</a></li>
                  <li class="main-list-item dropdown"><a href="#"> Finance  <span class="fa fa-angle-down" aria-hidden="true"></span></a>
                     <!--this is a second layer of navigation -->
                     <ul class="dropdown-menu">
-                      <li class="nested-list-item"><a href="./debitcard.html">HuloEx Debit card</a></li>  
-                      <li class="nested-list-item"><a href="./cryptoloan.html">HuloEx Crypto Loan</a></li>  
+                      <li class="nested-list-item flex">
+                        <div class="img-container">
+                            <img src="./images/debit-card-icon.svg" alt="contract icon"/>
+                         </div>
+                        <a href="./debitcard.html">HuloEx Debit card</a>
+                    </li>  
+                      <li class="nested-list-item flex">
+                        <div class="img-container">
+                            <img src="./images/debit-card-icon.svg" alt="contract icon"/>
+                         </div>
+                        <a href="./cryptoloan.html">HuloEx Crypto Loan</a>
+                    </li>  
                     </ul>
                 </li>
                  <li class="main-list-item"><a href="#">Language</a></li>
@@ -57,8 +78,127 @@
 
 
     <!-- site main body -->
-    <main class="site-body index-main"></main>
-    <footer class="site-footer index-footer"></footer>
+    <main class="site-body index-main">
+
+      <section class="intro-text section-1">
+        <div class="flex">
+          <div class="left">
+            <p>The <strong class="capslock">future </strong> of <strong class="capslock">money</strong> is <strong class="capslock"> digital </strong>
+            <p>buy, sell , trade &amp; lend 
+            <br>
+            cryptocurrencies
+            <br>
+             with us
+            </p>
+            <a class="get-started-cta" href="#" >Get Started</a>
+        </div>
+        <div class="right">
+
+        </div>
+      </div>
+     </section>
+
+     <section class="section-2">
+        <!-- round corner button -->
+        <div class="deposit-card-container">
+            <div class="deposit-card">
+             <p>
+              Deposit of 35,000 Earns reward of &dollar;1,500 in Native coin
+             </p>
+            </div>
+        </div>
+        <!-- round corner button -->
+     </section>
+
+
+
+
+
+
+
+    </main>
+    
+
+
+
+
+    <!-- footer markup -->
+    <footer class="site-footer index-footer">
+         <!--The nav element was used in the footer because it includes all the links on the site
+            and could be the major navigation-->
+            <nav>
+                <ul>
+                    <li><a href="aboutus.html">About Us</a>
+                        <!-- No closing </li> for dropdown menu  here -->
+                        <ul>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="careers.html">Careers</a></li>
+                            <li><a href="business-contact.html">Business Contacts</a></li>
+                            <li><a href="community.html">Community</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="products.html">Products</a>
+                        <!-- No closing </li> for dropdown menu  here -->
+                        <ul>
+                            <li><a href="#">Exchange</a></li>
+                            <li><a href="#">Academy</a></li>
+                            <li><a href="#">Charity</a></li>
+                            <li><a href="#">Card</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="service.html">Service</a>
+                        <!-- No closing </li> for dropdown menu  here -->
+                        <ul>
+                            <li><a href="#">Downloads</a></li>
+                            <li><a href="#">Desktop Applicaton</a></li>
+                            <li><a href="#">Buy Crypto</a></li>
+                            <li><a href="#">Institutional and VIP Services</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="support.html">Support</a>
+                        <!-- No closing </li> for dropdown menu  here -->
+                        <ul>
+                            <li><a href="#">Give Us Feedback</a></li>
+                            <li><a href="#">Support Center</a></li>
+                            <li><a href="#">Submit a request</a></li>
+                            <li><a href="#">APIs</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="learn.html">Learn</a>
+                        <!-- No closing </li> for dropdown menu  here -->
+                        <ul>
+                            <li><a href="#">Learn and Earn</a></li>
+                            <li><a href="#">Browse Crypto Prices</a></li>
+                            <li><a href="#">Buy BNB</a></li>
+                            <li><a href="#">Buy BUSD</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="community.html">Community</a>
+                        <!-- No closing </li> for dropdown menu  here -->
+                        <ul class="social-icons">
+                            <!-- social icons first row -->
+                            <div>
+                            <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                            <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                            <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                            <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                            </div>
+                            <!-- Social icons second row -->
+                            <div>
+                            <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                            <li><a href="#"><span class="fa fa-instagram"></span></a></li>
+                            <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                            <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                            </div>
+                            <!-- social icons third row -->
+                            <div>
+                            <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                            </div>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+    </footer>
    </div> 
 </body>
 </html>

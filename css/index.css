@@ -1,9 +1,73 @@
 @import url("boiler-plate.css");
 @import url("header.css");
+@import url("main-index.css");
 @import url("media-query.css");
 @import url("footer.css");
 
 
 .site-body{
-/* border:1px solid green; */
+color:#A7A7A7;
+}
+/* .section-1{
+  display:flex;
+  flex-flow:row wrap;
+   justify-content:space-between;
+   align-items:flex-end;
+   } */
+
+   /* section-1 styles */
+   .section-1{
+   border:0px solid yellow;
+   padding:1rem 1rem 1rem 4rem;
+   line-height:1.5;
+   margin-top:2rem;
+   }
+  .section-1 .get-started-cta{
+   padding:0.6rem;
+   background:#0A13DF;
+   color:#fff;
+   width:120px;
+   border-radius:8px;
+   font-weight:400;
+   font-size:var(--md-font);
+   display:block;
+   text-align:center;
+   margin-top:1rem;
+   }
+   .section-1 p{
+   font-size:var(--md-font);
+   font-weight:400;
+   text-transform:capitalize;
+   font-size:var(--lg-font);
+   }
+   .section-1 p + p{
+   /* border:1px solid green; */
+   font-weight:500;
+   font-size:var(--md-font);
+   }
+   .section-1 strong.capslock{
+   text-transform:uppercase;
+   font-weight:700;
+   }
+    
+
+/* section 2 styles */
+.deposit-card-container .deposit-card{
+border:1px solid green;
+}
+
+
+
+
+
+
+/* index page media queries */
+@media(min-width:380px){
+
+}
+
+
+/* for in */
+@media(min-width:650px){
+   
 }
