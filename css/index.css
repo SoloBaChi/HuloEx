@@ -162,6 +162,94 @@ padding:2rem;
 }
 
 
+/* section-5 */
+
+
+
+
+
+/* section-6*/
+.section-6{
+/* border:0px solid #f00; */
+padding:1rem;
+font-weight:300;
+margin:2rem 0rem;
+font-size:var(--sm-font);
+}
+.section-6 .text h4{
+text-transform:capitalize;
+font-weight:500;
+font-size:var(--md-font);
+color:#0A13DF;
+text-align:center;
+}
+.section-6 .text dt{
+color:#0A13DF;
+font-weight:500;
+}
+.section-6 .text-body  .img-container{
+height:40px;
+width:40px;
+padding:0.4rem;
+background: #FFFFFF;
+box-shadow: 0px 4px 28px -1px rgba(0, 0, 0, 0.11);
+border-radius:50%;
+position:relative;
+/* border:1px solid coral; */
+display:flex;
+}
+.section-6 .text-body  .img-container img{
+margin:auto;
+}
+
+.section-6 .aside-items{
+ margin-bottom:4rem;
+ /* border:0px solid blue; */
+}
+
+
+
+/* section-7 */
+.section-7{
+font-weight:300;
+font-size:0.6rem;
+padding:1rem;
+}
+.section-7 .container{
+margin-bottom:1rem;
+padding:1rem;
+}
+.section-7 .text-description h4{
+font-weight:500;
+color:#000;
+font-size:var(--sm-font);
+margin-bottom:0.4rem;
+}
+.section-7 .text-description span a{
+  color:#FFBF00;
+  font-size:0.8rem;
+  text-transform:capitalize;
+}
+.section-7 .text-description span a::after{
+content:">";
+margin:0.4rem 0 0 0.2rem;
+display:inline-block;
+}
+
+
+/* division line */
+.division-line{
+background: #E2DCFF;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+height: 14px;
+}
+
+
+
+
+
+
+
 
 
 
@@ -186,6 +274,9 @@ justify-content:space-around;
 .deposit-card-container{
 flex-basis:48%;
 }
+
+/* section-6*/
+
 }
 
 
@@ -203,4 +294,41 @@ padding-left:2rem;
  .deposit-card-container{
   flex-basis:22%;
   }
+
+  /* section-6 */
+  .section-6 .flex{
+    display:flex;
+    flex-flow:row wrap;
+   }
+   .section-6 .flex > *{
+   flex:1 1 48%;
+   }
+   .section-6 .aside-items{
+   display:flex;
+   gap:4%;
+   }
+   .section-6 .text-body  .img-container .draw-dotted-line{
+    border-right:4px dotted #0A13DF;
+    display:inline;
+    position:relative;
+    top:60px;
+    left:-15px;
+    }
+    .section-6 .text-body  .aside-items:last-child .draw-dotted-line{
+    border-right:0;
+    }
+
+    
+    
+    /* section-7 */
+    .section-7 .customer-enquiries.flex{
+    display:flex;
+    flex-flow:row wrap;
+    /* justify-content:space-around; */
+    gap:4%;
+    }
+    .section-7 .customer-enquiries .flex-basis{
+    flex:1 1 22%;
+    }
+
 }

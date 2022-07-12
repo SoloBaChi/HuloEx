@@ -14,18 +14,16 @@ border:0px solid red;
     }
     .site-footer nav ul{
     /* font-weight:bold; */
-    font-weight:700;
     line-height:1.5;
     }
     .site-footer nav ul a{
     color:var(--black-color);
-    }
-    .site-footer nav ul ul{
-    font-weight:400;
+    font-weight:500;
     }
     .site-footer nav ul ul a{
-    font-size:85%;
+    font-size:var(--sm-font);
     color:#A7A7A7;
+    font-weight:300;
     }
     .site-footer nav > ul > li {
     margin-bottom:2rem;
