@@ -17,11 +17,15 @@ border:0px solid red;
     font-weight:700;
     line-height:1.5;
     }
+    .site-footer nav ul a{
+    color:var(--black-color);
+    }
     .site-footer nav ul ul{
     font-weight:400;
     }
     .site-footer nav ul ul a{
     font-size:85%;
+    color:#A7A7A7;
     }
     .site-footer nav > ul > li {
     margin-bottom:2rem;
