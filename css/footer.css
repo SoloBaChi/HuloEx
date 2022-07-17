@@ -1,4 +1,6 @@
-/* footer styles for every page */
+/******************
+    footer styles for evry page
+  *******************/
 .index-footer{
 border:0px solid red;
 }
@@ -28,10 +30,18 @@ border:0px solid red;
     .site-footer nav > ul > li {
     margin-bottom:2rem;
     }
+    .site-footer nav ul.social-icons div{
+        border:0px solid green;
+        display:flex;
+        gap:8%;
+        /* justify-content:space-between; */
+       }
 
 
 
-    /*footer tablet device media query*/
+    /******************
+    tablet device
+  *******************/
     @media(min-width:450px){
         .site-footer nav{
          padding:2rem;
@@ -42,14 +52,11 @@ border:0px solid red;
         .site-footer nav ul ul{
             columns:1;
             }
-        .site-footer nav ul.social-icons div{
-         border:0px solid green;
-         display:flex;
-         justify-content:space-between;
-        }
     }
 
-    /* footer desktop media query */
+    /******************
+    desktop device
+  *******************/
     @media(min-width:810px){
     .site-footer nav{
     /* border:2px solid green; */
