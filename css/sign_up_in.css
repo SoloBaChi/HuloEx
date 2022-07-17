@@ -3,7 +3,7 @@
     signup page and signin styles
 *******************/
 .signup.header-wrapper{
-min-height:100px;
+/* min-height:100px; */
 z-index:1003;
 }
 .site-body.signup-main{
@@ -18,8 +18,8 @@ box-shadow:1px 1px 4px 2px rgb(230, 228, 228);
 width:80%;
 margin:0 auto;
 /* height:150; */
-margin-top:-60px;
-z-index:1004;
+margin-top:-140px;
+z-index:1020;
 background-color:inherit;
 text-align:center;
 /* padding:0; */
@@ -28,6 +28,7 @@ font-weight:400;
 font-size:var(--sm-font);
 text-transform:capitalize;
 padding-bottom:1rem;
+position:relative;
 }
 .panel .panel-header{
 border-bottom:1px solid #EEEEEE;
@@ -181,6 +182,7 @@ border:1px solid red;
 @media(min-width:650px){
 .panel{
 width:40%;
+margin-top:-160px;
 }
 .panel-body .flex > *{
 flex-basis:48%;

@@ -7,7 +7,7 @@
 .header-wrapper{
 background:#F9F9F9 url("../images/World_map.png") no-repeat top;
 background-size:cover;
-z-index:998;
+/* z-index:998; */
 padding-bottom:4rem;
 }
 .mobile-header-flex .img-container{

@@ -7,13 +7,13 @@
     <link rel="icon" href="./images/huloex-logo.png" type="image/icon"/>
     <link href="./font-awesome/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="./css/index.css" rel="stylesheet">
-    <title>signup</title>
+    <title>crypto loan</title>
 </head>
 <body>
     <!-- NoteBefore: the term "cta" was used in most styling to denote call to action btn -->
     <!-- starting with mobile first principle -->
    <div class="site-wrapper">
-    <div class="signup header-wrapper">
+    <div class="cryptoloan header-wrapper">
     <header class="site-header index-header">
     <input type="checkbox" id="toggle-action" class="nav-header-input"/>
     <div class="mobile-header-flex">
@@ -74,21 +74,24 @@
         </ul>
        </nav>
     </header>
-    <!--
+     <!--
     /******************
-    section-1
+    header-intro
   *******************
   /-->
-  <section class="intro-text section-1">
+  <section class="intro-text section-1 debitcard-section">
     <div class="flex">
       <div class="left">
-        <div class="bread-crumb">
-            <a href="./login.html">sign in</a>
-        </div>
+        <h2>
+         Crypto Loans
+        </h2>
+        <p>
+         Borrow for spot/margins/future trading on our staking to earn a high APY
+        </p>
     </div>
     <div class="right">
     <div class="img-container">
-    <img src="./images/two-right-phones.png">
+    <img src="./images/huloex-debit-card.svg">
     </div>
     </div>
   </div>
@@ -96,33 +99,75 @@
  </div>
 
     <!-- site main body -->
-    <main class="site-body signup-main">
-     
-    <!-- main signup page  section-->
-    <div class="signup-panel panel">
-        <div class="panel-header flex">
-            <a class="cta" href="./login.html">sign in</a>
-            <a class="cta" href="./signup.html">sign up</a>
-        </div>
-        <div class="panel-body">
-            <form>
-                <div class="form-field">
-                    <div class="email-container">
-                    <input class="email-input" type="email" id="email" placeholder="email"/>
+    <main class="site-body cryptoloan-main">
+    <div class="cryptoloan-panel">
+     <div class="flex-container">
+        <form>
+         <div class="float-right">
+            <div>
+            <label for="borrow">i want to borrow</label>
+            <select id="borrow">
+                <option></option>
+                <option value="btc" >ETH</option>
+                <option value="btc" selected>BTC</option>
+            </select>
+            </div>
+            <div>
+                <label for="borrow">collateral amount</label>
+                <select id="borrow">
+                  <option></option>
+                <option value="btc" >ETH</option>
+                <option value="btc" selected>BTC</option>
+                </select>
+            </div>
+            <div>
+                <label for="borrow">loan term</label>
+                 <select id="borrow">
+                    <option></option>
+                    <option value="btc" >ETH</option>
+                    <option value="btc" selected>BTC</option>
+                    </select>
+                    <small>no interested penalty for early payment</small>
+                </div>
+                <div class="comment">
+                    <textarea cols="20" rows="4" placeholder="Your comment"></textarea>
+                </div>
+            </div>
+            <div class="float-right">
+                <h3>Initail LTV(Loan-to-Value Ratio)</h3>
+                <p class="ratio">65%</p>
+                <div class="row">
+                  <span>Initail LTV 65%</span>
+                  <span>Margin Call 75%</span>
+                  <span>Liqiudation LTV 83%</span>
+                </div>
+                <div class="flex-container">
+                    <div>
+                        <p>Liquidation Price(BNB/BUSD)</p>
                     </div>
-                    <div class="password-container">
-                    <input class="password-input" type="password" id="password" placeholder="password"/>
+                    <div>
+                        <p>Hourly and Daily Interest Rate</p>
+                        <span>0.001042% / 0.0250%</span>
                     </div>
                 </div>
-               <div class="form flex">
-                <a href="#">forgot password &quest;</a>
-                <a class="cta" href="#">sign in</a>
-               </div>
-            </form>
-        </div>
-        <div class="panel-footer">
-            <a href="./signup.html">create an account</a>
-        </div>
+                <div class="flex-container">
+                    <div>
+                        <p>Total Interest Amount</p>
+                        <span>BUSD</span>
+                    </div>
+                    <div>
+                        <p>Repayment Amount</p>
+                        <span>BUSD</span>
+                    </div>
+                </div>
+            </div>
+            <button type="submit"> Submit </button>
+        </form>
+     </div>
+    </div>
+
+    <div class="roadmap-icon">
+        <img src="./images/crypto-loan-roadmap.svg" alt="loan road map"/>
     </div>
      
     </main>

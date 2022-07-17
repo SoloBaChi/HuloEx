@@ -1,5 +1,7 @@
 @import url("boiler-plate.css");
 @import url("header.css");
+@import url("debit_card.css");
+@import url("cryptoloan.css");
 @import url("main-index.css");
 @import url("sign_up_in.css");
 @import url("media-query.css");
@@ -8,12 +10,14 @@
 .site-wrapper{
 color:#A7A7A7;
 }
-/* .section-1{
-  display:flex;
-  flex-flow:row wrap;
-   justify-content:space-between;
-   align-items:flex-end;
-   } */
+.bread-crumb a{
+font-weight:600;
+font-size:var(--xl-font);
+display:block;
+text-decoration:underline;
+padding:0.6rem;
+text-transform:capitalize;
+}
 
   /******************
     section-1
@@ -55,6 +59,8 @@ color:#A7A7A7;
    .section-1 .right .img-container{
    width:100%;
    margin-left:-40px;
+   z-index:998;
+   position:relative;
    }
    .section-1 .right .img-container img{
    width:100%;
