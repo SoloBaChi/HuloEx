@@ -7,7 +7,7 @@
     <link rel="icon" href="./images/huloex-logo.png" type="image/icon"/>
     <link href="./font-awesome/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="./css/index.css" rel="stylesheet">
-    <title>signup</title>
+    <title>sign up</title>
 </head>
 <body>
     <!-- NoteBefore: the term "cta" was used in most styling to denote call to action btn -->
@@ -79,7 +79,11 @@
     <!-- site main body -->
     <main class="site-body signup-main">
      
-    <!-- main signup page  section-->
+    <!-- 
+        *********************
+        main login page
+        *********************
+    -->
     <div class="signup-panel panel">
         <div class="panel-header flex">
             <a class="cta" href="./login.html">sign in</a>
@@ -87,22 +91,16 @@
         </div>
         <div class="panel-body">
             <form>
+                <label class="signin-email-label" for="email">Enter your email to get verification code</label>
                 <div class="form-field">
                     <div class="email-container">
                     <input class="email-input" type="email" id="email" placeholder="email"/>
                     </div>
-                    <div class="password-container">
-                    <input class="password-input" type="password" id="password" placeholder="password"/>
-                    </div>
                 </div>
-               <div class="form flex">
-                <a href="#">forgot password &quest;</a>
-                <a class="cta" href="#">sign in</a>
+               <div class="form signup-form-container">
+                <a class="signup-cta" href="#">sign up</a>
                </div>
             </form>
-        </div>
-        <div class="panel-footer">
-            <a href="./signup.html">create an account</a>
         </div>
     </div>
      

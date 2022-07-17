@@ -1,6 +1,7 @@
 @import url("boiler-plate.css");
 @import url("header.css");
 @import url("main-index.css");
+@import url("sign_up_in.css");
 @import url("media-query.css");
 @import url("footer.css");
 
@@ -14,7 +15,9 @@ color:#A7A7A7;
    align-items:flex-end;
    } */
 
-   /* section-1 styles */
+  /******************
+    section-1
+  *******************/
    .section-1{
    border:0px solid yellow;
    padding:1rem;
@@ -60,7 +63,9 @@ color:#A7A7A7;
 
 
 /* main site section styles */
-/* section 2 styles */
+/******************
+    section-2
+*******************/
 .site-body{
   background:#FFFFFF;
   border:0px solid red;
@@ -154,7 +159,9 @@ margin:auto;
 }
 
 
-/* section 3 */
+/******************
+    section-3
+*******************/
 .section-3{
 border:0px solid red;
 margin:2rem 0;
@@ -164,7 +171,9 @@ padding:2rem;
 
 
 
-/*section -4 */
+/******************
+    section-4
+*******************/
 .section-4{
 padding:var(--normal-edge-gap);
 font-weight:400;
@@ -216,7 +225,9 @@ margin-top:1rem;
 
 
 
-/* section-5 */
+/******************
+   section-5
+*******************/
 .section-5{
 padding:1rem;
 background-color:#fff;
@@ -304,7 +315,9 @@ text-transform:capitalize;
 
 
 
-/* section-6*/
+/******************
+    section-6
+*******************/
 .section-6{
 /* border:0px solid #f00; */
 padding:1rem;
@@ -345,7 +358,9 @@ margin:auto;
 
 
 
-/* section-7 */
+/******************
+    section-7
+*******************/
 .section-7{
 font-weight:300;
 font-size:0.6rem;
@@ -373,7 +388,9 @@ display:inline-block;
 }
 
 
-/* division line */
+/******************
+    division line
+*******************/
 .division-line{
 background: #E2DCFF;
 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -389,9 +406,13 @@ height: 14px;
 
 
 
-/* index page media queries */
+/******************
+    tablet devices
+*******************/
 @media(min-width:380px){
-/* section-1 styles */
+/******************
+    section-1
+*******************/
 .section-1 .flex{
 display:flex;
 flex-flow:row wrap;
@@ -401,7 +422,9 @@ justify-content:space-around;
 flex-basis:50%;
 }
 
-/* section-2 styles */
+/******************
+    section-2
+*******************/
 .deposit-cards-wrapper{
 display:flex;
 flex-flow:row wrap;
@@ -412,7 +435,9 @@ flex-basis:48%;
 }
 
 
-/* section-4 */
+/******************
+    section-4
+*******************/
 .section-4 .chase-icon-container{
 display:flex;
 flex-flow:row wrap;
@@ -423,7 +448,9 @@ flex-basis:48%;
 }
 
 
-/* section  5 styles */
+/******************
+    sevtion-5
+*******************/
 .section-5 .flex{
 display:flex;
 flex-flow:row wrap;
@@ -433,14 +460,20 @@ gap:4%;
 flex:1 1 48%;
 }
 
-/* section-6*/
+/******************
+    section-6
+*******************/
 
 }
 
 
-/* for desktop devices */
+/******************
+    Desktop devices
+*******************/
 @media(min-width:650px){
-  /* section-1 styles */
+  /******************
+    section-1
+*******************/
 .section-1{
 padding-left:2rem;
  }  
@@ -448,15 +481,18 @@ padding-left:2rem;
  margin-left:-140px;
  }
 
- /* section-2 styles */
+ /******************
+    section-2
+*******************/
  .deposit-card-container{
   flex-basis:22%;
   }
 
  
 
-  /* section-4 */
-
+/******************
+    section-4
+*******************/
   .section-4{
   flex-flow:row wrap;
   gap:4%;
@@ -483,12 +519,16 @@ padding-left:2rem;
 
 
 
-  /* section-5 styles */
+  /******************
+    section-5
+*******************/
   .section-5 .btc-division-line >*{
   width:100px;
   }
 
-  /* section-6 */
+  /******************
+    section-6
+*******************/
   .section-6 .flex{
     display:flex;
     flex-flow:row wrap;
@@ -513,7 +553,9 @@ padding-left:2rem;
 
     
     
-    /* section-7 */
+/******************
+   section-7
+*******************/
     .section-7 .customer-enquiries.flex{
     display:flex;
     flex-flow:row wrap;
