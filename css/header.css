@@ -1,15 +1,21 @@
 
-/* styling  done according to the appearance of the selectors in each page */
+/******************
+ styling  done according to the appearance of the selectors in each page
+*******************/
 .site-header{
- /* border:1px solid #0A13DF; */
  padding:0.8rem 0;
 }
 .header-wrapper{
-background:#F9F9F9 url("../images/World_map.png") no-repeat top;
+ background:#F1F1F1 url("../images/World_map.png") no-repeat top;
 background-size:cover;
-/* z-index:998; */
+/*z-index:1010;
+*/
 padding-bottom:4rem;
+/*height:98vh;
+*/
 }
+
+
 .mobile-header-flex .img-container{
 width:50px;
 height:50px;
@@ -45,7 +51,9 @@ flex-basis:48%;
 
 
 
-/* mobile toggle label icon styles */
+/******************
+ mobile toggle label icon styles
+  *******************/
 .toggle-bars::after{
     content:"\2630";
     font-family:"FontAwesome";
@@ -71,7 +79,10 @@ flex-basis:48%;
     color:#0A13DF;
     } 
 
-    /* turn off the checkbok icon */
+
+  /******************
+  turn off the checkbok icon 
+  *******************/
     .nav-header-input{
     display:none;
     }
@@ -140,19 +151,110 @@ flex-basis:48%;
     }
 
 
-     /* Header styles media query for mobile device */
-     @media(min-width:380px){
-       /*check the suitable media for thr header tablet view  */
-     }
+/******************
+ header intro section
+*******************/
+ /******************
+  header-intro
+ *******************/
+  .header-intro{
+    padding:2rem;
+   line-height:1.5;
+   margin-top:2rem;
+   }
+  .header-intro .get-started-cta{
+   padding:0.6rem;
+   background:#0A13DF;
+   color:#fff;
+   width:120px;
+   border-radius:8px;
+   font-weight:400;
+   font-size:var(--md-font);
+   display:block;
+   text-align:center;
+   margin-top:1rem;
+   }
+   .header-intro p{
+   font-size:var(--md-font);
+   font-weight:400;
+   text-transform:capitalize;
+   font-size:var(--lg-font);
+   }
+   .header-intro p + p{
+   /* border:1px solid green; */
+   font-weight:500;
+   font-size:var(--md-font);
+   }
+   .header-intro strong.capslock{
+   text-transform:uppercase;
+   font-weight:700;
+   }
+
+   .header-intro .right .img-container{
+   width:100%;
+    }
+   .header-intro .right .img-container img{
+   width:100%;
+   }
+
+
+/******************
+tablet device
+*******************/
+@media(min-width:380px){
+/*check the suitable media for thr header tablet view  */
+/******************
+  header-intro
+*******************/
+.header-intro .flex{
+display:flex;
+flex-flow:row wrap;
+justify-content:space-around;
+}
+.header-intro .flex .left{
+flex:1 1 40%;
+}
+.header-intro .flex .right{
+flex:1 1 60%;
+}
+/*.header-intro.login .flex .left{
+flex:1 1 10%;
+}
+.header-intro.login .flex .right{
+border:1px solid red;
+flex-basis:55%;*/
+}
+}
 
 
 
 
 
 
+ /******************
+ medium size desktop device
+  *******************/
+  @media(min-width:650px){
+/******************
+    header intro
+*******************/
+ .header-intro{
+  padding-left:2rem;
+ }  
+ /*.header-intro .right .img-container{
+ margin-left:-140px;
+ }
+*/
+}
 
-     /* Header styles media query for Desktop device */
-     @media(min-width:850px){
+
+
+
+
+  /******************
+  large screen desktop device
+  *******************/
+   @media(min-width:850px){
     /* turn off mobile togglebar icons and styles */
      .toggle-bars{
      display:none;
@@ -169,15 +271,15 @@ flex-basis:48%;
      padding:1rem;
      }
      /* flex every children inside the  navbar */
-     .index-header{
+     .site-header{
       display:flex;
       gap:4%;
       align-items:center;
      }
-     .index-header .mobile-header-flex{
+     .site-header .mobile-header-flex{
      flex-basis:14%;
      }
-     .index-header .nav-main-menu{
+     .site-header .nav-main-menu{
      flex-basis:78%;
      }
 
@@ -190,7 +292,7 @@ flex-basis:48%;
      }
      .nav-main-menu .nav-ul li:first-child{
       margin-right:auto;
-        }
+     }
       .nav-main-menu .nav-ul li:nth-child(8){
       margin-left:auto;
      }

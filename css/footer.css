@@ -1,12 +1,11 @@
 /******************
-    footer styles for evry page
+footer styles for every page
   *******************/
 .index-footer{
 border:0px solid red;
 }
 
 .site-footer{
-    /* border:1px solid blue; */
     background-color:#fff;
     }
     .site-footer nav{
@@ -54,7 +53,7 @@ border:0px solid red;
             }
     }
 
-    /******************
+   /******************
     desktop device
   *******************/
     @media(min-width:810px){

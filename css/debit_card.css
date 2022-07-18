@@ -7,7 +7,6 @@
   .intro-text.debitcard-section p{
   font-weight:500;
   font-size:1.2rem;
-  line-height:1.5;
   text-transform:initial;
   }
   .site-body.debitcard-main{
@@ -50,10 +49,20 @@
   .debitcard-panel .img-container img{
   margin:auto;
   }
+  .header-intro.debitcard-section img{
+  margin-bottom:-80px;
+  }
 
 
 
-
+  /******************
+    Tablet device
+  *******************/
+ @media(min-width:380px){
+ .header-intro.debitcard-section .flex{
+  display:block;
+  }
+ }
 
 
   /******************
@@ -64,9 +73,33 @@
   display:flex;
   gap:4%;
   flex-flow:row wrap;
-
+  justify-content:center;
+  }
+  .header-intro.debitcard-section img{
+  margin-bottom:-250px;
   }
  .debitcard-panel .card-container{
   flex:1 1 30%; 
  }
+ .header-intro.debitcard-section .flex{
+  display:flex;
+  flex-flow:row wrap;
+  justify-content:center;
+  align-items:flex-start;
+  gap:0%;
+  padding:0 2.8rem;
+  }
+  .header-intro.debitcard-section .flex .left{
+  flex-basis:40%;
+  }
+  }
+
+
+  /******************
+    large desktop device
+  *******************/
+  @media(min-width:810px){
+  .header-intro.debitcard-section img{
+  margin-bottom:-140px;
+  }
   }
