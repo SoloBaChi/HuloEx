@@ -69,7 +69,7 @@
                 </li>
                  <li class="main-list-item"><a href="#">Language</a></li>
                  <li class="main-list-item"><a href="./login.html">Log In</a></li>
-                 <li class="main-list-item"><a class="cta-btn" href="#">Register</a></li>
+                 <li class="main-list-item"><a class="cta-btn" href="./signup.html">Register</a></li>
               </ul>
         </ul>
        </nav>
@@ -79,7 +79,7 @@
     header-intro
   *******************
   /-->
-  <section class="intro-text section-1 debitcard-section">
+  <section class="intro-text header-intro cryptoloan-section">
     <div class="flex">
       <div class="left">
         <h2>
@@ -99,11 +99,12 @@
  </div>
 
     <!-- site main body -->
-    <main class="site-body cryptoloan-main">
-    <div class="cryptoloan-panel">
+    <!-- note panel used  here is a general style -->
+    <main class="site-body cryptoloan-main panel cryptoloan-panel">
+    <div>
      <div class="flex-container">
         <form>
-         <div class="float-right">
+         <div class="float-left">
             <div>
             <label for="borrow">i want to borrow</label>
             <select id="borrow">
@@ -115,7 +116,7 @@
             <div>
                 <label for="borrow">collateral amount</label>
                 <select id="borrow">
-                  <option></option>
+                <option></option>
                 <option value="btc" >ETH</option>
                 <option value="btc" selected>BTC</option>
                 </select>
@@ -160,18 +161,19 @@
                         <span>BUSD</span>
                     </div>
                 </div>
+            <button class="cta-btn" type="submit"> Submit </button>
             </div>
-            <button type="submit"> Submit </button>
-        </form>
+       </form>
      </div>
-    </div>
-
-    <div class="roadmap-icon">
-        <img src="./images/crypto-loan-roadmap.svg" alt="loan road map"/>
     </div>
      
     </main>
     
+    <section class="roadmap-section">
+        <div class="roadmap-icon">
+        <img src="./images/crypto-loan-roadmap.svg" alt="loan road map"/>
+    </div>
+    </section>
 
 
 
