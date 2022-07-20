@@ -125,10 +125,6 @@ margin-top:2.4rem;
     Tablet device
   *******************/
 @media(min-width:380px){
-.cryptoloan-panel .float-right .flex-container{
-display:flex;
-justify-content:space-between;
-}
 .cryptoloan-section .right img{
 margin-bottom:-50px;
 }
@@ -166,5 +162,20 @@ border-top:2px solid #EEEEEE;
 }
 .cryptoloan-section .right img{
 margin-bottom:-120px;
+}
+}
+
+ /******************
+    Large Desktop device
+  *******************/
+  @media(min-width:810px){
+.cryptoloan-panel .float-right .flex-container{
+display:flex;
+flex-flow:row wrap;
+justify-content:space-between;
+gap:4%;
+}
+.cryptoloan-panel .float-right .flex-container>*{
+flex-basis:48%;
 }
 }
