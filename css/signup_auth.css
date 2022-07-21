@@ -1,36 +1,42 @@
 .form-field a,p{
-    font-size:80%;
-    }
-    .signup-form-body{
-    display:flex;
-    flex-flow:row wrap;
-    justify-content:center;
-    margin:0 1rem 2rem 2rem;
-    }
-   /* .signup-form-body .field-container*/
-    .signup-form-body label{
+ font-size:80%;
+ }
+
+   /********************
+   .signup-form-body 
+   .field-container
+
+   ********************/
+.signup-form-body{
+ padding:1rem;
+ }
+   .signup-form-body label{
     font-size:var(--sm-font);
     margin-bottom:1rem;
     display:block;
     font-weight:600;
     }
     .signup-form-body .input{
-    padding:0.4rem;
+    padding:0.8rem;
     outline:none;
-    border-radius:10px;
+    border-radius:4px;
     box-shadow:none;
     border:1px solid #ccc;
     background:#fff;
     display:block; 
     width:100%;
-}
+    text-indent:0.6rem;
+    }
     .signup-referral-section{
     display:flex;
-    flex-flow:row wrap;
+    flex-flow:column wrap;
     justify-content:space-around;
     align-items:center;
     margin:1rem 0 0 0;
     margin:0 0 1rem 0;
+    }
+    .signup-referral-section p{
+    font-size:0.8rem;  
     }
     .signup-referral-section input{
     height:30px;
@@ -59,6 +65,9 @@
     font-size:var(--md-font);
     font-weight:600;
     }
+    .signup-form-footer a:first-child{
+    display:none;
+    }
 .signup-footer-cta{
 background:#0A13DF;
 color:#fff;
@@ -82,34 +91,48 @@ a.create-text-action{
     
     
  @media(min-width:380px){
-  .signup-form-body{
-    padding:0;
-    gap:4%;
- }
- .signup-form-body .field-container{
-    flex:48%;
-    margin:0;
-    }
- .signup-referral-section{
+  .signup-referral-section{
     gap:1rem;
     }
     .signup-breadcrumb{
     text-align:center;
     }
-    }
+ .banner-wrapper.signup-auth .img-container{
+  width:80%;
+ }
+}
     
     /* Desktop device*/
    @media(min-width:650px){
+    .signup-panel-auth.panel{
+    width:60%;
+    }
+    .signup-form-body{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:center;
+    gap:4%;
+    margin:0 1rem 2rem 2rem;
+    }
+    .signup-form-body .field-container{
+    flex:48%;
+    margin:0;
+    }
     .signup-form-footer{
     display:flex;
     justify-content:center;
-    align-items:center;
-    gap:60%;
+    align-items:flex-end;
+    gap:40%;
     }
+
     .signup-referral-section{
     gap:4%;
+    flex-flow:row wrap;
     }
-    .signup-panel{
+    .signup-form-footer a:first-child{
+    display:block;
+    }
+    /*.signup-panel{
     width:50%;
-    }
+    }*/
     }
