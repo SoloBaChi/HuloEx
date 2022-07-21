@@ -106,15 +106,15 @@ font-size:0.8rem;
 }
 .smart-contract .box-container .cta-btn{
  background:#0A13DF;
- padding:0.4rem;
+ padding:0.5rem;
  border-radius:5rem;
- width:80px;
+ width:100px;
  text-align:center;
  display:block;
  color:#fff;
  font-weight:600;
  font-size:0.87rem;
- margin:0 auto;
+ margin:2rem auto;
 }
 
 

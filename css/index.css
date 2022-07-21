@@ -3,8 +3,11 @@
 @import url("earn.css");
 @import url("debit_card.css");
 @import url("cryptoloan.css");
+@import url("buycrypto.css");
+@import url("dashboard.css");
 @import url("main-index.css");
 @import url("sign_up_in.css");
+@import url("signup_auth.css");
 @import url("media-query.css");
 @import url("footer.css");
 
@@ -93,11 +96,12 @@ animation:slide-left 1s infinite;
 border:0px solid green;
 margin-top:-50px;
 z-index:1002;
+padding:0 2rem;
 }
 .deposit-card-container{
 border:0px solid green;
 margin-bottom:1rem;
-height:120px;
+height:140px;
 }
 .deposit-card{
 border:1px solid #ddd;
@@ -381,6 +385,7 @@ width:100%;
 display:flex;
 flex-flow:row wrap;
 justify-content:space-around;
+padding:0;
 }
 .deposit-card-container{
 flex-basis:48%;

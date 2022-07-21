@@ -1,0 +1,84 @@
+/**************
+Buycrypto styles
+***************/
+.buycrypto-header-intro{
+text-align:center;
+}
+.buycrypto-header-intro > *{
+
+}
+.buycrypto-header-intro .buycrypto-caption p{
+font-weight:500;
+font-size:1.8rem;
+text-transform:capitalize;
+margin:0;
+display:inline-block;
+}
+.buycrypto-caption .caption-line{
+display:block;
+width:60px;
+height:4px;
+background:#0A13DF;
+color:#0A13DF; 
+}
+.buycrypto-header-intro .img-container{
+
+}
+.buycrypto-panel{
+padding:1rem;
+}
+.purchase-section >*{
+margin-bottom:1rem;
+}
+.purchase-section h4{
+ border-left:4px solid #0A13DF;
+}
+.purchase-section .float-left .img-container{
+ height:40px;
+ width:40px;
+ border-radius:50%;
+ padding:0.5rem;
+background: #FFFFFF;
+box-shadow: 0px 4px 28px -1px rgba(0, 0, 0, 0.11);
+display:flex;
+position:relative;
+}
+.purchase-section .float-left .img-container img{
+margin:auto;
+}
+
+.purchase-section .float-left .flex-container{
+display:flex;
+align-items:center;
+gap:4%;
+}
+.purchase-section .float-left .flex-container>*{
+margin-bottom:2rem;
+}
+.purchase-section .dotted-line{
+border-right:4px dotted #0A13DF;
+display:block;
+position:relative;
+top:40px;
+left:-15px;
+}
+.purchase-section .float-left .flex-container:last-child .dotted-line{
+border:none;
+}
+
+
+
+/**************
+Tablet device
+***************/
+
+
+
+
+
+
+
+
+/**************
+Desktop device
+***************/
