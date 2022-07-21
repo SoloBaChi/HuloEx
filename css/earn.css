@@ -2,7 +2,7 @@
    earn style
 *******************/
 .site-body.earn-main{
-margin-top:-80px;
+margin-top:-120px;
 position:relative;
 z-index:1030;
 }
@@ -142,6 +142,15 @@ font-size:0.87rem;
 
 
 
+.earn-main .division-line{
+position:absolute;
+width:100%;
+z-index:1020;
+top:-34px;
+}
+.section-2.earn-deposits{
+z-index:1030;
+}
 
 
 
@@ -149,6 +158,9 @@ font-size:0.87rem;
   Tablet device
 *******************/
 @media(min-width:380px){
+.site-body.earn-main{
+margin-top:-160px;
+}
 .refer-section .flex-wrapper{
 display:flex;
 flex-flow:row wrap;
@@ -163,10 +175,15 @@ flex-basis:48%;
 }
 
 
+
+
 /******************
  desktop device
 *******************/
 @media(min-width:650px){
+.site-body.earn-main{
+margin-top:-200px;
+}
 .user-tasks.earn-page .flex{
 display:flex;
 flex-flow:row wrap;

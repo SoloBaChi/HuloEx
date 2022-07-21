@@ -9,8 +9,8 @@
  background:#F1F1F1 url("../images/World_map.png") no-repeat top;
 background-size:cover;
 /*z-index:1010;
-*/
-padding-bottom:4rem;
+position:relative;
+*/padding-bottom:4rem;
 /*height:98vh;
 */
 }
@@ -212,11 +212,9 @@ flex-flow:row wrap;
 justify-content:space-around;
 }
 .header-intro .flex .left{
-flex:1 1 40%;
+flex-basis:100%;
 }
-.header-intro .flex .right{
-flex:1 1 60%;
-}
+
 /*.header-intro.login .flex .left{
 flex:1 1 10%;
 }
@@ -245,6 +243,12 @@ flex-basis:55%;*/
  margin-left:-140px;
  }
 */
+.header-intro .flex .left{
+flex:1 1 40%;
+}
+.header-intro .flex .right{
+flex:1 1 60%;
+}
 }
 
 
