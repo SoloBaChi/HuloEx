@@ -31,7 +31,9 @@ padding:1rem;
 margin-bottom:1rem;
 }
 .purchase-section h4{
- border-left:4px solid #0A13DF;
+ border-left:3px solid #0A13DF;
+ padding-left:0.4rem;
+ margin-bottom:1rem;
 }
 .purchase-section .float-left .img-container{
  height:40px;
@@ -65,13 +67,95 @@ left:-15px;
 .purchase-section .float-left .flex-container:last-child .dotted-line{
 border:none;
 }
+.purchase-section .float-right input{
+border:1px solid blue;
+text-align:center;
+text-transform:capitalize;
+font-weight:200;
+padding:1rem;
+background: #FFFFFF;
+border: 1px solid #EFEFEF;
+box-shadow: inset 3px 3px 5px -2px rgba(0, 0, 0, 0.11);
+border-radius: 6px;
+outline:none;
+margin-bottom:1rem;
+width:100%;
+}
+.purchase-section .flex-container select{
+background: #FFFFFF;
+border: 1px solid #EFEFEF;
+box-shadow: inset 3px 3px 5px -2px rgba(0, 0, 0, 0.11);
+border-radius: 6px;
+outline:none;
+width:100%;
+text-align:right;
+padding:1rem;
+color:#ccc;
+}
+.purchase-section .float-right .payment-method{
+text-transform:capitalize;
+margin:3rem 0 0 0;
+text-align:center;
+font-size:0.94rem;
+font-weight:600;
+letter-spacing:0.1rem;
+}
+.purchase-section .float-right .payment-method .straight-line{
+display:inline-block;
+border-bottom:3px solid #ccc;
+width:20%;
+}
+.purchase-section .float-right .payment-method select{
+border:1px solid #F8F8F8;
+margin:2rem 0 0 0;
+background: #FFFFFF;
+box-shadow: 7px 0px 22px -1px rgba(116, 116, 116, 0.08);
+border-radius: 10px;
+padding:1rem;
+color:#ccc;
+text-transform:capitalize;
+width:100%;
+text-indent:0.8rem;
+font-size:0.7rem;
+}
+.purchase-section .float-right .payment-gateways{
+margin-top:2rem;
+}
+.purchase-section .float-right .submit-btn button{
+border:none;
+box-shadow:none;
+display:block;
+width:120px;
+background:#0A13DF;
+border-radius:15px;
+margin:2rem auto;
+transition:all 0.5s;
+transform:scale(0.9);
+}
+.purchase-section .float-right .submit-btn a{
+color:#fff;
+display:block;
+padding:1rem;
+font-weight:500;
+font-size:1rem;
+}
+.purchase-section .float-right .submit-btn button:hover{
+transform:scale(1);
+}
+
+
+
 
 
 
 /**************
 Tablet device
 ***************/
-
+@media(min-width:380px){
+.purchase-section .float-right .payment-method .straight-line{
+width:30%;
+}
+}
 
 
 

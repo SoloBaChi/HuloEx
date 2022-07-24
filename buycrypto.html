@@ -39,13 +39,13 @@
                             <div class="img-container">
                              <img src="./images/spot-trading.svg " alt="spot trading icon"/>
                             </div>
-                            <a href="./spot.html">Spot Trading</a>
+                            <a href="./signup.html">Spot Trading</a>
                         </li>
                         <li class="nested-list-item flex">
                              <div class="img-container">
                                 <img src="./images/debit-card-icon.svg" alt="contract icon"/>
                              </div>
-                            <a href="./contract.html">Contract Trading</a>
+                            <a href="./signup.html">Contract Trading</a>
                         </li>
                     </ul>
                 </li>
@@ -150,15 +150,32 @@
       <form>
           <div class="flex-container">
             <div class="form-field">
-                <input type="text" name="text" placeholder="enter usd">
+                <input type="text" name="text" placeholder="enter USD">
             </div>
             <div class="form-field">
              <select id="validate-value">
                  <option></option>
                  <option value="btc" name="btc">ETH</option>
-                 <option value="btc" name="btc" checked>BTC</option>
+                 <option value="btc" name="btc" selected>BTC</option>
              </select>
             </div>
+          </div>
+          <div class="payment-method">
+            <p><span class="straight-line"></span> payment method <span class="straight-line"></span></p>
+            <div class="select-payment">
+              <select id="select">
+                <option></option>
+                <option value="payment" name="payment" selected="">select payment method</option>
+              </select>
+            </div>
+          </div>
+          <div class="payment-gateways">
+            <div class="img-container">
+              <img src="./images/payment-gateway.svg" alt="payment gateway">
+            </div>
+          </div>
+          <div class="submit-btn">
+          <button><a href="./signup.html">Purchase</a></button>
           </div>
       </form>
     </div>
