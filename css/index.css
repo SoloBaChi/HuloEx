@@ -1,5 +1,6 @@
 @import url("boiler-plate.css");
 @import url("header.css");
+@import url("market.css");
 @import url("earn.css");
 @import url("debit_card.css");
 @import url("cryptoloan.css");
@@ -41,16 +42,15 @@ position:relative;
 height:45px;
 width:45px;
 display:flex;
-border:1px solid #F8F8F8;
--moz-box-shadow:1px  1px 2px rgba(0,0,0,0.4);
--webkit-box-shadow:1px  1px 2px rgba(0,0,0,0.4);
--o-box-shadow:1px  1px 2px rgba(0,0,0,0.4);
-box-shadow:1px  1px 2px rgba(0,0,0,0.4);
+-webkit-box-shadow: 0px 4px 28px -1px rgba(0, 0, 0, 0.25);
+-moz-box-shadow: 0px 4px 28px -1px rgba(0, 0, 0, 0.25);
+-o-box-shadow: 0px 4px 28px -1px rgba(0, 0, 0, 0.25);
+box-shadow: 0px 4px 28px -1px rgba(0, 0, 0, 0.25);
 border-radius:50%;
 position:absolute;
 top:0;
 z-index:1004;
-background-color:#fff;
+background-color:#FFFFFF;
 }
 .round-corner-btn.left{
 left:0;
@@ -101,18 +101,17 @@ padding:0 2rem;
 .deposit-card-container{
 border:0px solid green;
 margin-bottom:1rem;
-height:140px;
+height:160px;
 }
 .deposit-card{
-border:1px solid #ddd;
 padding:1rem;
 border-radius:5px;
 height:100%;
 display:flex;
--moz-box-shadow:1px 1px 3px 0px rgba(0,0,0,0.2);
--webkit-box-shadow:1px 1px 3px 0px rgba(0,0,0,0.2);
--o-box-shadow:1px 1px 3px 0px rgba(0,0,0,0.2);
-box-shadow:1px 1px 3px 0px rgba(0,0,0,0.2);
+-moz-box-shadow:0px 4px 24px -1px rgba(0, 0, 0, 0.13);
+-webkit-box-shadow:0px 4px 24px -1px rgba(0, 0, 0, 0.13);
+-o-box-shadow:0px 4px 24px -1px rgba(0, 0, 0, 0.13);
+box-shadow:0px 4px 24px -1px rgba(0, 0, 0, 0.13);;
 background-color:#fff;
 }
 .deposit-card p{
@@ -126,9 +125,8 @@ margin:auto;
     section-3
 *******************/
 .section-3{
-border:0px solid red;
 margin:2rem 0;
-padding:2rem;
+padding:0rem 2rem;
 }
 
 
@@ -213,10 +211,13 @@ margin-bottom:2rem;
 padding:1rem;
 }
 .section-5 .flex .btc-eth{
-border:1px solid #F1F1F1;
-box-shadow:-1px 1px 2px #F8F8F8,1px 1px 2px #F8F8F8;
+/*border:1px solid #F1F1F1;*/
+-webkit-box-shadow:0px 4px 35px -1px rgba(0, 0, 0, 0.1);
+-moz-box-shadow:0px 4px 35px -1px rgba(0, 0, 0, 0.1);
+-o-box-shadow:0px 4px 35px -1px rgba(0, 0, 0, 0.1);
+box-shadow:0px 4px 35px -1px rgba(0, 0, 0, 0.1);
 /* height:150px; */
-border-radius:8px;
+border-radius:11px;
 }
 .section-5 .btn-row{
 margin-top:1rem;
@@ -225,25 +226,25 @@ text-align:center;
 .section-5 .btn-row input{
 border:1px #F8F8F8;
 width:50%;
-padding:0.4rem;
-border-radius:6px 0 0 6px;
--moz-box-shadow:4px 1px 3px 1px #F1F1F1,-1px -1px 2px #F1F1F1;
--webkit-box-shadow:4px 1px 3px 1px #F1F1F1,-1px -1px 2px #F1F1F1;
--o-box-shadow:4px 1px 3px 1px #F1F1F1,-1px -1px 2px #F1F1F1;
-box-shadow:4px 1px 3px 1px #F1F1F1,-1px -1px 2px #F1F1F1;
+padding:0.8rem;
+border-radius: 15px 0px 0px 15px;
+-webkit-box-shadow: 7px 0px 22px -1px rgba(0, 0, 0, 0.15);
+-moz-box-shadow: 7px 0px 22px -1px rgba(0, 0, 0, 0.15);
+-o-box-shadow: 7px 0px 22px -1px rgba(0, 0, 0, 0.15);
+box-shadow: 7px 0px 22px -1px rgba(0, 0, 0, 0.15);
 outline:none;
 /* z-index:1006; */
 }
 .section-5 .btn-row label{
 border:1px #F8F8F8;
-border-radius:0 6px 6px 0;
--moz-box-shadow:-1px 1px 3px #F1F1F1,1px 1px 3px #F1F1F1;
--webkit-box-shadow:-1px 1px 3px #F1F1F1,1px 1px 3px #F1F1F1;
--o-box-shadow:-1px 1px 3px #F1F1F1,1px 1px 3px #F1F1F1;
-box-shadow:-1px 1px 3px #F1F1F1,1px 1px 3px #F1F1F1;
-padding:0.25rem 0.6rem;
+border-radius: 0px 15px 15px 0px;
+-webkit-box-shadow:-7px 0px -22px 1px rgba(0, 0, 0, 0.15);box-shadow: 7px 0px 22px -1px rgba(0, 0, 0, 0.15);
+-moz-box-shadow:-7px 0px -22px 1px rgba(0, 0, 0, 0.15);box-shadow: 7px 0px 22px -1px rgba(0, 0, 0, 0.15);
+-o-box-shadow:-7px 0px -22px 1px rgba(0, 0, 0, 0.15);box-shadow: 7px 0px 22px -1px rgba(0, 0, 0, 0.15);
+box-shadow:-7px 0px -22px 1px rgba(0, 0, 0, 0.15);box-shadow: 7px 0px 22px -1px rgba(0, 0, 0, 0.15);
+padding:0.75rem 0.6rem;
 font-size:0.82rem;
-margin-left:-0rem;
+margin-left:-0.3rem;
 /* z-index:1005; */
 vertical-align:middle;
 }
@@ -326,17 +327,24 @@ margin:auto;
 *******************/
 .section-7{
 font-weight:300;
-font-size:0.6rem;
-padding:1rem;
+font-size:0.9rem;
+display:flex;
+}
+.section-7 >*{
+margin:auto;
 }
 .section-7 .container{
 margin-bottom:1rem;
 padding:1rem;
 }
+.section-7 .container .avatar-icon{
+height:70px;
+width:70px;
+}
 .section-7 .text-description h4{
 font-weight:500;
 color:#000;
-font-size:var(--sm-font);
+font-size:var(--md-font);
 margin-bottom:0.4rem;
 }
 .section-7 .text-description span a{
@@ -369,19 +377,18 @@ width:100%;
 
 
 
-
-
-
-
 /******************
-    tablet devices
+ tablet devices
 *******************/
 @media(min-width:380px){
 
 /******************
-    section-2
+section-2
+check media query
+exception for the 
+styles
 *******************/
-.deposit-cards-wrapper{
+/*.deposit-cards-wrapper{
 display:flex;
 flex-flow:row wrap;
 justify-content:space-around;
@@ -389,7 +396,7 @@ padding:0;
 }
 .deposit-card-container{
 flex-basis:48%;
-}
+}*/
 
 
 /******************
@@ -422,6 +429,33 @@ flex:1 1 48%;
 *******************/
 
 }
+
+
+
+
+/**********************
+mobile | Tablet devices
+***********************/
+@media(min-width:450px){
+/******************
+section-2
+
+*******************/
+.deposit-cards-wrapper{
+display:flex;
+flex-flow:row wrap;
+justify-content:space-around;
+padding:0;
+}
+.deposit-card-container{
+flex-basis:48%;
+}
+
+}
+
+
+
+
 
 
 /******************
@@ -462,7 +496,7 @@ flex:1 1 48%;
     flex-basis:22%;
     }
     .chase-item + .chase-item{
-    border-left:1px solid #ddd;
+    border-left:1px solid #C0C0C0;
     }
 
 
@@ -507,11 +541,15 @@ flex:1 1 48%;
     .section-7 .customer-enquiries.flex{
     display:flex;
     flex-flow:row wrap;
+    align-items:flex-end;
     /* justify-content:space-around; */
     gap:4%;
     }
     .section-7 .customer-enquiries .flex-basis{
-    flex:1 1 22%;
+    flex:1 1 30%;
     }
 
 }
+
+
+

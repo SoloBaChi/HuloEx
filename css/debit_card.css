@@ -27,14 +27,15 @@
   font-size:var(--sm-font);
   background-color:#fff;
   padding:0.8rem;
+  height:220px;
   text-align:center;
-  border:1px solid #eee;
+  background: #FFFFFF;
+  -webkit-box-shadow:0px 4px 31px -1px rgba(0, 0, 0, 0.14);
+  -moz-box-shadow:0px 4px 31px -1px rgba(0, 0, 0, 0.14);
+  -o-box-shadow:0px 4px 31px -1px rgba(0, 0, 0, 0.14);
+  box-shadow:0px 4px 31px -1px rgba(0, 0, 0, 0.14);
   border-radius:8px;
   margin-bottom:1rem;
-  -moz-box-shadow:var(--box-shadow);
-  -webkit-box-shadow:var(--box-shadow);
-  -o-box-shadow:var(--box-shadow);
-  box-shadow:var(--box-shadow);
   }
   .debitcard-panel .img-container{
   height:60px;
@@ -62,25 +63,38 @@
  .header-intro.debitcard-section .flex{
   display:block;
   }
+  .debitcard-panel{
+  margin-top:-120px;
+  }
  }
 
-
-  /******************
-    desktop device
-  *******************/
-  @media(min-width:650px){
+ 
+ /**************************
+  mobile | Tablet
+ ****************************/
+ @media(min-width:450px){
   .debitcard-panel .flex-container{
   display:flex;
   gap:4%;
   flex-flow:row wrap;
   justify-content:center;
   }
-  .header-intro.debitcard-section img{
-  margin-bottom:-250px;
+/*  .header-intro.debitcard-section img{
+  margin-bottom:-150px;
   }
- .debitcard-panel .card-container{
-  flex:1 1 30%; 
+*/ .debitcard-panel .card-container{
+  flex:1 1 24%; 
  }
+ 
+ }
+
+
+
+  /******************
+    desktop device
+  *******************/
+  @media(min-width:650px){
+  
  .header-intro.debitcard-section .flex{
   display:flex;
   flex-flow:row wrap;
@@ -90,10 +104,11 @@
   padding:0 2.8rem;
   }
   .header-intro.debitcard-section .flex .left{
-  flex-basis:40%;
-  }
+  flex-basis:100%;
   }
 
+  }
+  
 
   /******************
     large desktop device
