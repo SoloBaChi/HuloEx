@@ -15,7 +15,7 @@ font-size:0.7rem;
 }
 .header-intro.cryptoloan-section .flex{
 align-items:center;
-padding:0 4rem;
+padding:0rem;
 }
 .header-intro.cryptoloan-section .flex >*{
 flex:1 1 100%;
@@ -25,8 +25,8 @@ flex:1 1 100%;
 width:80%;
 margin-top:-100px;
 text-align:left;
-padding:2rem;
-margin-left: calc(10% - 5%);
+padding:1rem;
+
 }
 .cryptoloan-panel .flex-container form >*{
 padding:1rem;
@@ -45,13 +45,32 @@ margin-bottom:1rem;
 width:100%;
 padding:0.8rem;
 border-radius:4px;
-text-indent:2rem;
+text-indent:0.4rem;
+-webkit-text-indent:0.4rem;
 outline:none;
 border:none;
 background:#EEEEEE;
-text-align:right;
+text-align:left;
+-webkit-text-align:left;
+-moz-text-align:left;
 color:#A7A7A7;
 transition:background 0.6s;
+-webkit-padding:0.8rem;
+-moz-padding:0.8rem;
+-webkit-appearance:none;
+}
+.cryptoloan-panel .flex-container .select-field{
+position:relative;
+}
+.cryptoloan-panel .flex-container .select-field:after{
+position:absolute;
+content:">";
+transform:rotate(90deg);
+font-size:18px;
+color:#A7A7A7;
+top:8px;
+right:10px;
+display:inline-block;
 }
 .cryptoloan-panel .flex-container select:hover{
 background:transparent;
@@ -142,7 +161,9 @@ margin-bottom:-50px;
  .cryptoloan-main.cryptoloan-panel{
  margin-top:-170px;
  border:0px solid red;
+ margin-left: calc(10% - 5%);
  }
+
 .header-intro.cryptoloan-section .flex .left{
  flex:1 1 40%;
 }

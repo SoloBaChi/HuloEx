@@ -81,6 +81,8 @@ border:none;
 .purchase-section .float-right input{
 border:1px solid blue;
 text-align:center;
+-webkit-text-align:center;
+-moz-text-align:center;
 text-transform:capitalize;
 font-weight:200;
 padding:1rem;
@@ -95,21 +97,52 @@ width:100%;
 .purchase-section .flex-container select{
 background: #FFFFFF;
 border: 1px solid #EFEFEF;
-box-shadow: inset 3px 3px 5px -2px rgba(0, 0, 0, 0.11);
-border-radius: 6px;
+box-shadow:inset 3px 3px 5px -2px rgba(0, 0, 0, 0.11);
+-webkit-box-shadow:inset 3px 3px 5px -2px rgba(0, 0, 0, 0.11);
+-moz-box-shadow:inset 3px 3px 5px -2px rgba(0, 0, 0, 0.11);
+-o-box-shadow:inset 3px 3px 5px -2px rgba(0, 0, 0, 0.11);
+-webkit-border-radius:6px;
+-moz-border-radius:6px;
+border-radius:6px;
 outline:none;
 width:100%;
-text-align:right;
+text-align:left;
+-webkit-text-align:left;
+-moz-text-align:left;
 padding:1rem;
+-webkit-padding:1rem;
+-moz-padding:1rem;
 color:#ccc;
+-webkit-appearance:none;
 }
+.purchase-section .flex-container .select-field,
+.purchase-section .float-right .payment-method .select-payment
+{
+position:relative;
+}
+.purchase-section .flex-container .select-field:after,
+.purchase-section .float-right .payment-method .select-payment:after
+{
+position:absolute;
+content:">";
+transform:rotate(90deg);
+font-size:18px;
+color:#A7A7A7;
+top:8px;
+right:10px;
+display:inline-block;
+}
+
 .purchase-section .float-right .payment-method{
 text-transform:capitalize;
-margin:3rem 0 0 0;
+margin:3rem 0 2rem 0;
 text-align:center;
 font-size:0.94rem;
 font-weight:600;
 letter-spacing:0.1rem;
+}
+.purchase-section .float-right .payment-method p{
+margin-bottom:2rem;
 }
 .purchase-section .float-right .payment-method .straight-line{
 display:inline-block;
@@ -118,17 +151,27 @@ width:20%;
 }
 .purchase-section .float-right .payment-method select{
 border:1px solid #F8F8F8;
-margin:2rem 0 0 0;
-background: #FFFFFF;
+/*margin:2rem 0 0 0;
+*/background: #FFFFFF;
 box-shadow: 7px 0px 22px -1px rgba(116, 116, 116, 0.08);
+-webkit-box-shadow: 7px 0px 22px -1px rgba(116, 116, 116, 0.08);
+-moz-box-shadow: 7px 0px 22px -1px rgba(116, 116, 116, 0.08);
+-o-box-shadow: 7px 0px 22px -1px rgba(116, 116, 116, 0.08);
 border-radius: 10px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
 padding:1rem;
+-webkit-padding:1rem;
+-moz-padding:1rem;
 color:#ccc;
 text-transform:capitalize;
 width:100%;
 text-indent:0.8rem;
 font-size:0.7rem;
+outline:none;
+-webkit-appearance:none;
 }
+
 .purchase-section .float-right .payment-gateways{
 margin-top:2rem;
 }

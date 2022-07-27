@@ -107,6 +107,7 @@
          <div class="float-left">
             <div>
             <label for="borrow">i want to borrow</label>
+            <div class="select-field">
             <select id="borrow">
                 <option></option>
                 <option value="btc">ETH</option>
@@ -114,9 +115,11 @@
                 <option value="btc">BUSD</option>
                 <option value="btc" selected>USDT</option>
             </select>
+           </div>
             </div>
             <div>
                 <label for="borrow">collateral amount</label>
+                <div class="select-field">
                 <select id="borrow">
                 <option></option>
                 <option value="btc" >ETH</option>
@@ -124,18 +127,24 @@
                 <option value="btc">BUSD</option>
                 <option value="btc">USDT</option>
                 </select>
+               </div>
             </div>
             <div>
                 <label for="borrow">loan term</label>
+                <div class="select-field">
                  <select id="borrow">
                     <option></option>
-                    <option value="btc" >7 days</option>
-                    <option value="btc" selected>14 days</option>
+                    <option value="7days" >7 days</option>
+                    <option value="14days" selected>14 days</option>
+                    <option value="30days">30 days</option>
+                    <option value="50days">50 days</option>
+                    <option value="90days">90 days</option>
                     </select>
+                </div>
                     <small>no interested penalty for early payment</small>
                 </div>
                 <div class="comment">
-                    <textarea cols="20" rows="4" placeholder="Your comment"></textarea>
+                    <textarea cols="20" rows="10" placeholder="Your comment"></textarea>
                 </div>
             </div>
             <div class="float-right">

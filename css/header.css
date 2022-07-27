@@ -211,8 +211,10 @@ display:flex;
 flex-flow:row wrap;
 justify-content:space-around;
 }
-.header-intro .flex .left{
-flex-basis:100%;
+.header-intro .flex >*{
+/*flex-basis:100%;
+*/
+flex:1 1 100%;
 }
 
 /*.header-intro.login .flex .left{
